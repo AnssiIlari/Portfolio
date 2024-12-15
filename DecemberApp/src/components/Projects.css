@@ -1,0 +1,27 @@
+.projects-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .project-card {
+    min-width: 300px;
+    flex: 0 0 auto;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .project-card h3 {
+    margin-top: 0;
+  }
+  
+  .projects-container::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .projects-container::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+  }

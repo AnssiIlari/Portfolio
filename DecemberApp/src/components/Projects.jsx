@@ -1,21 +1,37 @@
 import React from 'react';
+import './Projects.css';
 
 function Projects() {
-    return (
-        <section id="projects">
-            <h2>Projects</h2>
-            <div className="ChristmasChallenge">
-                <h3>Karelia christmas challenge 2023</h3>
-                <p>The competition's challenge involved working with a scrambled image and a CSV file. The primary task was to rearrange the scrambled image correctly using the clues provided in the CSV file.</p>
-                <a href="https://github.com/AnssiIlari/Karelia-Coding-Competition-2023" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-            </div>
-            <div className="Portfolio">
-                <h3>Portfolio</h3>
-                <p>This page right here. Yes that's right!</p>
-                <a href="https://github.com/AnssiIlari" target="_blank" rel="noopener noreferrer">ToBeAddedLater</a>
-            </div>
-        </section>
-    );
+  const projects = [
+    {
+      title: 'Karelia Christmas Challenge 2023',
+      description: 'Rearranged a scrambled image using clues from a CSV file.',
+      link: 'https://github.com/AnssiIlari/Karelia-Coding-Competition-2023',
+    },
+    {
+      title: 'Portfolio',
+      description: 'This very portfolio site.',
+      link: 'https://github.com/AnssiIlari/YourPortfolioRepo',
+    },
+    // Add more projects as needed
+  ];
+
+  return (
+    <section id="projects">
+      <h2>Projects</h2>
+      <div className="projects-container">
+        {projects.map((project, index) => (
+          <div className="project-card" key={index}>
+            <h3>{project.title}</h3>
+            <p>{project.description}</p>
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
+              View on GitHub
+            </a>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 }
 
 export default Projects;
