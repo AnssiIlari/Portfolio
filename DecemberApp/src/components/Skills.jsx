@@ -1,24 +1,38 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 function Skills() {
-  return (
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>Programming Languages: C#, JavaScript, TypeScript, Python, Java, PHP</li>
-        <li>Frontend: React, React Native, HTML, CSS</li>
-        <li>Backend: Node.js, PHP, REST APIs</li>
-        <li>Databases: SQL (MariaDB, MySQL, PostgreSQL),NoSQL (MongoDB, Firebase)</li>
-        <li>CMS: ProcessWire</li>
-        <li>Testing: Manual & automated testing (Jest, Mocha, Chai, Cypress)</li>
-        <li>Mobile Development: React Native</li>
-        <li>Cybersecurity: Cisco Certified Hacker</li>
-        <li>Machine Learning: scikit-learn, Keras, NumPy, Pandas, PyPlot, Azure Machine Learning</li>
-        <li>RPA: UiPath</li>
-        <li>Linux/Server Environments: Ubuntu, Nginx</li>
-      </ul>
-    </section>
-  );
-}
+    const skills = [
+      'Programming Languages: C#, JavaScript, TypeScript, Python, Java, PHP',
+      'Frontend: React, React Native, HTML, CSS',
+      'Backend: Node.js, PHP, REST APIs',
+      'Databases: SQL (MariaDB, MySQL, PostgreSQL), NoSQL (MongoDB, Firebase)',
+      'CMS: ProcessWire',
+      'Testing: Jest, Mocha, Chai, Cypress',
+      'Mobile Development: React Native',
+      'Cybersecurity: Cisco Certified Hacker',
+      'Machine Learning: scikit-learn, Keras, NumPy, Pandas, PyPlot, Azure ML',
+      'RPA: UiPath',
+      'Linux/Server Environments: Ubuntu, Nginx',
+    ];
+  
+    return (
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          {skills.map((skill, index) => (
+            <motion.li
+              key={index}
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: index * 0.2 }}
+            >
+              {skill}
+            </motion.li>
+          ))}
+        </ul>
+      </section>
+    );
+  }
 
 export default Skills;
