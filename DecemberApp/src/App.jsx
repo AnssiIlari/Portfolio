@@ -1,6 +1,7 @@
 import './App.css'
 import About from './components/About'
 import Projects from './components/Projects'
+import Skills from './components/Skills'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <h1>Anssi Laitinen</h1>
       <About />
       <Projects />
+      <Skills />
     </>
   )
 }
