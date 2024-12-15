@@ -42,7 +42,10 @@ function ContactForm() {
 
 function App() {
     return (
+        <section id="contact">
+        <h2>Contact</h2>
         <ContactForm />
+      </section>
     );
 }
 
