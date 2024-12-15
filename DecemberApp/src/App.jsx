@@ -4,11 +4,13 @@ import Projects from './components/Projects'
 import Skills from './components/Skills'
 import WorkExperience from './components/WorkExperience'
 import Contact from './components/Contact'
+import Navbar from './components/Navbar'
 
 function App() {
 
   return (
     <>
+      <Navbar />
       <h1>Welcome!
       </h1>
       <About />
