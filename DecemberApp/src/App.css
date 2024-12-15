@@ -1,4 +1,31 @@
-#root {
-
+section {
+  padding: 2rem;
+  margin: 2rem 0;
+  background-color: #f9f9f9;
+  border-radius: 8px;
 }
 
+h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+#about {
+  background-color: #e8f5e9;
+}
+
+#projects {
+  background-color: #e3f2fd;
+}
+
+#skills {
+  background-color: #fff3e0;
+}
+
+#work-experience {
+  background-color: #fce4ec;
+}
+
+#contact {
+  background-color: #f3e5f5;
+}
