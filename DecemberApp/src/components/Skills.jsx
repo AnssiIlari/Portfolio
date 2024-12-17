@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { InView } from 'react-intersection-observer';
 
 function Skills() {
     const skills = [
@@ -21,14 +22,18 @@ function Skills() {
         <h2>Skills</h2>
         <ul>
           {skills.map((skill, index) => (
-            <motion.li
-              key={index}
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: index * 0.2 }}
-            >
-              {skill}
-            </motion.li>
+            <InView triggerOnce key={index}>
+              {({ inView, ref }) => (
+                <motion.li
+                  ref={ref}
+                  initial={{ opacity: 0, x: -50 }}
+                  animate={inView ? { opacity: 1, x: 0 } : {}}
+                  transition={{ delay: index * 0.2 }}
+                >
+                  {skill}
+                </motion.li>
+              )}
+            </InView>
           ))}
         </ul>
       </section>
