@@ -1,8 +1,10 @@
 section {
+  width: 66.666%;
+  margin: 2rem auto;
   padding: 2rem;
-  margin: 2rem 0;
-  background-color: #f9f9f9;
+  background-color: rgba(200, 243, 196, 0.92);
   border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -11,23 +13,24 @@ h2 {
 }
 
 #about {
-  background-color: #e8f5e9;
+  /* background-color: #e8f5e9; */
+  /* background-color: rgba(156, 243, 148, 0.92); */
 }
 
 #projects {
-  background-color: #e3f2fd;
+  /* background-color: #e3f2fd; */
 }
 
 #skills {
-  background-color: #fff3e0;
+  /* background-color: #fff3e0; */
 }
 
 #work-experience {
-  background-color: #fce4ec;
+  /* background-color: #fce4ec; */
 }
 
 #contact {
-  background-color: #f3e5f5;
+  /* background-color: #f3e5f5; */
 }
 
 /* Contact Form Styles */
