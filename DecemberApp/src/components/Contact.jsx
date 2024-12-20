@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { InView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
+
+import './Contact.css';
 
 function ContactForm() {
     const [state, handleSubmit] = useForm("mqakvkbp");
@@ -45,18 +47,27 @@ function ContactForm() {
 }
 
 function Contact() {
+
+    const [showForm, setShowForm] = useState(false);
+
     return (
         <InView triggerOnce>
             {({ inView, ref }) => (
-                <section id="contact" ref={ref}>
+                <section id="contact" ref={ref} className={showForm ? 'contact-expanded' : ''}>
                     {inView && (
                         <motion.div
                             initial={{ opacity: 0, y: 50 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5 }}
                         >
-                            <h2>Contact</h2>
-                            <ContactForm />
+                            {!showForm ? (
+                                <button onClick={() => setShowForm(true)}>Contact</button>
+                            ) : (
+                                <>
+                                <h2>Contact Me</h2>
+                                <ContactForm />
+                            </>
+                            )}
                         </motion.div>
                     )}
                 </section>
