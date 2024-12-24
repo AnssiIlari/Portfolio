@@ -2,6 +2,8 @@ import React from 'react';
 import { InView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 
+import './Projects.css';
+
 function Projects() {
   const projects = [
     {
