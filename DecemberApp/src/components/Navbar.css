@@ -1,10 +1,12 @@
 .navbar {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 1rem;
-  }
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  overflow-x: hidden; /* Add this line */
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width */
+}
   
   .navbar a {
     color: white;
@@ -23,6 +25,7 @@
     display: flex;
     gap: 2rem;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
   }
 
   .navbar .mobile-menu-button {
