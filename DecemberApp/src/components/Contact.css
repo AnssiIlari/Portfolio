@@ -21,10 +21,13 @@
   }
   
   #contact button {
-    align-self: flex-start;
-    padding: 0.5rem 1rem;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
     background-color: #646cff;
     color: white;
+    justify-content: center;
+    display: flex;
   }
   
   #contact button:hover {
@@ -34,3 +37,22 @@
   #contact.contact-expanded {
     width: 50%; /* New width after clicking Contact */
   }
+
+
+@media (max-width: 730px) {
+  #contact button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 580px) {
+  #contact button {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 470px) {
+  #contact button {
+    font-size: 0.6rem;
+  }
+}
