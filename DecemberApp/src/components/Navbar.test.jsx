@@ -6,6 +6,6 @@ test('renders Navbar links', () => {
   expect(screen.getByText('About')).toBeInTheDocument();
   expect(screen.getByText('Projects')).toBeInTheDocument();
   expect(screen.getByText('Skills')).toBeInTheDocument();
-  expect(screen.getByText('Work Experience')).toBeInTheDocument();
+  expect(screen.getByText('Experience')).toBeInTheDocument();
   expect(screen.getByText('Contact')).toBeInTheDocument();
 });

@@ -25,7 +25,7 @@ function WorkExperience() {
 
   return (
     <section id="work-experience">
-      <h2>Work Experience</h2>
+      <h2>Experience</h2>
       {jobs.map((job, index) => (
         <InView triggerOnce key={job.id}>
           {({ inView, ref }) => (

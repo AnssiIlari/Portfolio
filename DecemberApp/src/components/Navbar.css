@@ -23,3 +23,23 @@
   body {
     margin-top: 70px;
   }
+
+  @media (max-width: 450px) {
+    .navbar {
+      gap: 1.5rem;
+      justify-content: left;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .navbar {
+      gap: 1rem;
+    }
+  }
+
+  @media (max-width: 350px) {
+    .navbar {
+      gap: 0.5rem;
+    }
+  }
+  
