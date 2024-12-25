@@ -9,7 +9,7 @@ function Projects() {
     {
       title: 'Portfolio',
       description: 'This very portfolio site.',
-      link: 'https://github.com/AnssiIlari/YourPortfolioRepo',
+      link: 'https://github.com/AnssiIlari/Portfolio',
     },
     {
       title: 'Karelia Christmas Challenge 2023',
