@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { InView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
+import { handleContactClick } from './ContactHandlers';
 
 import './Contact.css';
 
@@ -61,7 +62,7 @@ function Contact() {
                             transition={{ duration: 0.5 }}
                         >
                             {!showForm ? (
-                                <button onClick={() => setShowForm(true)}>Contact</button>
+                                <button onClick={() => handleContactClick(setShowForm)}>Contact</button>
                             ) : (
                                 <>
                                 <h2>Contact Me</h2>
