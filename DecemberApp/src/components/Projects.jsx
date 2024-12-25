@@ -7,16 +7,20 @@ import './Projects.css';
 function Projects() {
   const projects = [
     {
+      title: 'Portfolio',
+      description: 'This very portfolio site.',
+      link: 'https://github.com/AnssiIlari/YourPortfolioRepo',
+    },
+    {
       title: 'Karelia Christmas Challenge 2023',
       description: 'Rearranged a scrambled image using clues from a CSV file.',
       link: 'https://github.com/AnssiIlari/Karelia-Coding-Competition-2023',
     },
     {
-      title: 'Portfolio',
-      description: 'This very portfolio site.',
-      link: 'https://github.com/AnssiIlari/YourPortfolioRepo',
+      title: 'Under Construction',
+      description: 'To be added soon',
+      link: 'https://github.com/AnssiIlari/',
     },
-    // Add more projects as needed
   ];
 
   return (
