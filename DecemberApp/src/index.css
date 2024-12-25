@@ -40,3 +40,10 @@ button:hover {
 html {
   scroll-behavior: smooth;
 }
+
+
+@media (max-width: 768px) {
+  :root {
+    background-attachment: scroll;
+  }
+}
