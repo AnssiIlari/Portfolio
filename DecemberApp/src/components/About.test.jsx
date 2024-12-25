@@ -5,4 +5,5 @@ test('renders About section', () => {
   render(<About />);
   expect(screen.getByRole('heading', { name: /About Me/i })).toBeInTheDocument();
   expect(screen.getByText(/Welcome to my portfolio/i)).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /LinkedIn/i })).toBeInTheDocument();
 });

@@ -9,6 +9,8 @@ function About() {
 
   const aboutTextPart3 = `I am currently seeking a full-time position as a Software Developer or similar role. If you have any questions or would like to discuss a potential project, feel free to contact me!`;
 
+  const linkedInUrl = "https://www.linkedin.com/in/anssi-laitinen-93a963269/";
+
   return (
     <InView triggerOnce>
       {({ inView, ref }) => (
@@ -22,6 +24,9 @@ function About() {
               <h2>About Me</h2>
               <p className="about-text">{aboutTextPart1}</p>
               <p className="about-text">{aboutTextPart3}</p>
+              <a href={linkedInUrl} className="linkedin-button" target="_blank" rel="noopener noreferrer">
+                LinkedIn
+              </a>
             </motion.div>
           )}
         </section>
