@@ -9,7 +9,7 @@
   .project-card {
     background-color: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
     width: 300px;
@@ -18,6 +18,34 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  /* 
+    This CSS rule applies a pseudo-element (::before) to elements with the class "project-card".
+    The pseudo-element is used to create an overlay effect.
+  */
+  .project-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.85); /* Adjust opacity as needed */
+    z-index: 1;
+  }
+
+  /* 
+    This CSS rule applies a pseudo-element (::after) to elements with the class "project-card".
+    The pseudo-element is used to create a gradient effect.
+  */
+  .project-card > * {
+    position: relative;
+    z-index: 2;
   }
   
   .project-card:hover {
