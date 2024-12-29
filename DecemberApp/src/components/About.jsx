@@ -5,7 +5,7 @@ import './About.css';
 
 function About() {
 
-  const aboutTextPart1 = `Welcome to my portfolio! I’m Anssi Laitinen, a soon-to-be graduate in Business Information Technology from Karelia University of Applied Sciences. Specializing in full-stack development, I have hands-on experience with languages and frameworks such as C#, Python, Java, JavaScript, TypeScript, React, and React Native. During my time as a Web Developer Trainee, I developed and maintained web and mobile applications and managed server environments.`;
+  const aboutTextPart1 = `Welcome to my portfolio! I am Anssi Laitinen, a soon-to-be graduate in Business Information Technology from Karelia University of Applied Sciences. Specializing in full-stack development, I have hands-on experience with languages and frameworks such as C#, Python, Java, JavaScript, TypeScript, React, and React Native. During my time as a Web Developer Trainee, I developed and maintained web and mobile applications and managed server environments.`;
 
   const aboutTextPart3 = `I am currently seeking a full-time position as a Software Developer or similar role. If you have any questions or would like to discuss a potential project, feel free to contact me!`;
 
