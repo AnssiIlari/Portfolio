@@ -30,6 +30,11 @@
 }
 
 #about p {
-  line-height: 1.6;
-  margin-bottom: 1rem;
+  line-height: 1.5;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.1rem;
+  background-color: rgba(82, 89, 175, 0.15);
+  border-radius: 10px;
 }
