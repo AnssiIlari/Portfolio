@@ -13,17 +13,18 @@ function Projects() {
       backgroundImage: 'url(/favicon.png)',
     },
     {
+      title: 'DevOps Pipeline & Backend Architecture',
+      description: 'A demo showcasing a full DevOps pipeline with Docker, Jenkins, Nginx, and Cloudflare on an Ubuntu VPS.',
+      link: 'https://github.com/AnssiIlari/DevOps-Pipeline-Backend-Infrastructure',
+      backgroundImage: 'url(/joki2.jpg)',
+    },
+    {
       title: 'Karelia Christmas Challenge 2023',
       description: 'Rearranged a scrambled image using clues from a CSV file.',
       link: 'https://github.com/AnssiIlari/Karelia-Coding-Competition-2023',
       backgroundImage: 'url(/pukki.png)',
     },
-    {
-      title: 'Under Construction',
-      description: 'To be added soon',
-      link: 'https://github.com/AnssiIlari/',
-      backgroundImage: 'url(/joki2.jpg)',
-    },
+
   ];
 
   return (
