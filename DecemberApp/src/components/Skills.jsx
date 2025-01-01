@@ -8,13 +8,14 @@ function Skills() {
       'Frontend: React, React Native, HTML, CSS',
       'Backend: Node.js, PHP, REST APIs',
       'Databases: SQL (MariaDB, MySQL, PostgreSQL), NoSQL (MongoDB, Firebase)',
+      'DevOps & CI/CD: Docker, Jenkins',
       'CMS: ProcessWire',
-      'Testing: Jest, Mocha, Chai, Cypress',
+      'Testing: Jest, Mocha, Chai, Cypress, React Testing Library',
       'Mobile Development: React Native',
       'Cybersecurity: Cisco Certified Hacker',
       'Machine Learning: scikit-learn, Keras, NumPy, Pandas, PyPlot, Azure ML',
       'RPA: UiPath',
-      'Linux/Server Environments: Ubuntu, Nginx',
+      'Linux/Server Environments: Ubuntu, Nginx, SSH, server configuration, Cron jobs , firewall management',
     ];
   
     return (
