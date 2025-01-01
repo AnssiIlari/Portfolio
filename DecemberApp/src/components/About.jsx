@@ -5,9 +5,12 @@ import './About.css';
 
 function About() {
 
-  const aboutTextPart1 = `Welcome to my portfolio! I am Anssi Laitinen, a soon-to-be graduate in Business Information Technology from Karelia University of Applied Sciences. Specializing in full-stack development, I have hands-on experience with languages and frameworks such as C#, Python, Java, JavaScript, TypeScript, React, and React Native. During my time as a Web Developer Trainee, I developed and maintained web and mobile applications and managed server environments.`;
+  const aboutTextPart1 = `Hello! I’m Anssi Laitinen, a soon-to-be graduate in Business Information Technology from Karelia University of Applied Sciences. My main focus is on full-stack development, but I’m passionate about all aspects of the IT field—whether it’s front-end, back-end, DevOps, AI/ML, cybersecurity, testing, or anything in between.`;
 
-  const aboutTextPart3 = `I am currently seeking a full-time position as a Software Developer or similar role. If you have any questions or would like to discuss a potential project, feel free to contact me!`;
+  const aboutTextPart3 = `Through my experience as a Web Developer Trainee, I’ve built and maintained a range of web and mobile applications, overseen server environments, and worked with various programming languages and frameworks.`;
+
+  const aboutTextPart4 = `I’m currently looking for a full-time position (Software Developer or similar) but am open to exploring any exciting opportunity in the IT domain. Feel free to reach out if you’d like to collaborate or discuss potential projects!`;
+
 
   const linkedInUrl = "https://www.linkedin.com/in/anssi-laitinen-93a963269/";
 
@@ -24,6 +27,7 @@ function About() {
               <h2>About Me</h2>
               <p className="about-text">{aboutTextPart1}</p>
               <p className="about-text">{aboutTextPart3}</p>
+              <p className="about-text">{aboutTextPart4}</p>
               <a href={linkedInUrl} className="linkedin-button" target="_blank" rel="noopener noreferrer">
                 LinkedIn
               </a>
