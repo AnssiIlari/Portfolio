@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { InView } from 'react-intersection-observer';
+import './Skills.css';
 
 function Skills() {
     const skills = [
@@ -19,24 +20,30 @@ function Skills() {
     ];
   
     return (
-      <section id="skills">
+      <section id="skills" className="skills-section">
         <h2>Skills</h2>
-        <ul>
-          {skills.map((skill, index) => (
-            <InView triggerOnce key={index}>
-              {({ inView, ref }) => (
-                <motion.li
-                  ref={ref}
-                  initial={{ opacity: 0, x: -50 }}
-                  animate={inView ? { opacity: 1, x: 0 } : {}}
-                  transition={{ delay: index * 0.2 }}
-                >
-                  {skill}
-                </motion.li>
-              )}
-            </InView>
-          ))}
-        </ul>
+        <div className="skills-container">
+          <ul>
+            {skills.map((skill, index) => {
+              const [title, details] = skill.split(': ');
+              return (
+                <InView triggerOnce key={index}>
+                  {({ inView, ref }) => (
+                    <motion.li
+                      ref={ref}
+                      className="skill-item"
+                      initial={{ opacity: 0, x: -50 }}
+                      animate={inView ? { opacity: 1, x: 0 } : {}}
+                      transition={{ delay: index * 0.2 }}
+                    >
+                      <strong>{title}:</strong> <span>{details}</span>
+                    </motion.li>
+                  )}
+                </InView>
+              );
+            })}
+          </ul>
+        </div>
       </section>
     );
   }
