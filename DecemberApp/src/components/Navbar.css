@@ -4,8 +4,8 @@
   width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 1rem;
-  overflow-x: hidden; /* Add this line */
-  box-sizing: border-box; /* Ensure padding and border are included in the element's total width */
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
   
   .navbar a {
@@ -32,6 +32,7 @@
     background: none;
     color: white;
     font-size: 1.5rem;
+    margin-left: auto;
   }
 
 
