@@ -50,3 +50,14 @@
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
 }
+
+/*
+To get rid of the default list styles, we can set the padding and margin to 0. Spread out style of the list items by setting display to flex and flex-wrap to wrap. Center the items by setting justify-content to center.
+*/
+.skills-container ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
