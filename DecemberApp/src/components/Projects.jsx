@@ -30,7 +30,7 @@ function Projects() {
   return (
     <section id="projects">
       <h2>Projects</h2>
-      <div className="projects-container">
+      <div className="projects-container testixyz">
         {projects.map((project, index) => (
           <InView triggerOnce key={project.title}>
             {({ inView, ref }) => (
