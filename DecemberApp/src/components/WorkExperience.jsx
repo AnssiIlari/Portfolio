@@ -11,7 +11,7 @@ function WorkExperience() {
       title: 'Web Developer Trainee',
       company: 'Molentum',
       companyLink: 'https://molentum.fi/',
-      duration: 'September 2024 - Present',
+      duration: 'September 2024 - January 2025',
       responsibilities: [
         'Developed and maintained websites (PHP, CMS)',
         'Designed, developed, and maintained mobile applications (React Native, JavaScript, TypeScript)',
