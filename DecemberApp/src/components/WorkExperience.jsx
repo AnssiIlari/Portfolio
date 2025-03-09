@@ -6,8 +6,27 @@ import './WorkExperience.css';
 
 function WorkExperience() {
   const jobs = [
+
     {
       id: 1,
+      title: 'IT Designer',
+      company: 'Istekki Oy',
+      companyLink: 'https://www.istekki.fi/',
+      duration: 'January 2025 - Present',
+      responsibilities: [
+        'System administration',
+        'Superuser',
+        'Documentation',
+        'Testing',
+        'IT support',
+        'Problem solving',
+        'Customer service',
+      ],
+      backgroundImage: 'url(/istekki.jpeg)',
+    },
+
+    {
+      id: 2,
       title: 'Web Developer Trainee',
       company: 'Molentum',
       companyLink: 'https://molentum.fi/',
@@ -19,8 +38,10 @@ function WorkExperience() {
       ],
       backgroundImage: 'url(/molentum2.png)',
     },
+
+
     {
-      id: 2,
+      id: 3,
       title: 'Waste Truck Driver',
       company: 'Verdis',
       companyLink: 'https://verdis.fi/',
@@ -28,6 +49,10 @@ function WorkExperience() {
       responsibilities: ['Managed daily waste collection routes'],
       backgroundImage: 'url(/verdis.png)',
     },
+    
+
+
+    
     // Add more jobs as needed
   ];
 
