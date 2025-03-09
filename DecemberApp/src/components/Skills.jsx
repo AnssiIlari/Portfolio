@@ -5,6 +5,15 @@ import './Skills.css';
 
 function Skills() {
     const skills = [
+      'System administration',
+      'System maintenance',
+      'Superuser',
+      'Documentation',
+      'Testing',
+      'IT support',
+      'Problem solving',
+      'Customer service',
+      'Teamwork',
       'Programming Languages: C#, JavaScript, TypeScript, Python, Java, PHP',
       'Frontend: React, React Native, HTML, CSS',
       'Backend: Node.js, PHP, REST APIs',
@@ -36,7 +45,7 @@ function Skills() {
                       animate={inView ? { opacity: 1, x: 0 } : {}}
                       transition={{ delay: index * 0.2 }}
                     >
-                      <strong>{title}:</strong> <span>{details}</span>
+                      <strong>{title}</strong>{details && <span>: {details}</span>}
                     </motion.li>
                   )}
                 </InView>

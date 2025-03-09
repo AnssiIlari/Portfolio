@@ -5,11 +5,11 @@ import './About.css';
 
 function About() {
 
-  const aboutTextPart1 = `Hello! I’m Anssi Laitinen, a soon-to-be graduate in Business Information Technology from Karelia University of Applied Sciences. My main focus is on full-stack development, but I’m passionate about all aspects of the IT field—whether it’s front-end, back-end, DevOps, AI/ML, cybersecurity, testing, or anything in between.`;
+  const aboutTextPart1 = `Hello! I’m Anssi Laitinen, an IT Designer specializing in healthcare technology and a soon-to-be graduate in Business Information Technology from Karelia University of Applied Sciences. My journey began in full-stack development, where I honed my skills across front-end, back-end, DevOps, and cybersecurity—experiences that now fuel my passion for building secure, user-centric IT solutions in the healthcare sector.`;
 
-  const aboutTextPart3 = `Through my experience as a Web Developer Trainee, I’ve built and maintained a range of web and mobile applications, overseen server environments, and worked with various programming languages and frameworks.`;
+  const aboutTextPart3 = `In my current role, I focus on system maintenance, documentation, and testing, ensuring seamless integration of technology into healthcare workflows.`;
 
-  const aboutTextPart4 = `I’m currently looking for a full-time position (Software Developer or similar) but am open to exploring any exciting opportunity in the IT domain. Feel free to reach out if you’d like to collaborate or discuss potential projects!`;
+  const aboutTextPart4 = `Feel free to reach out if you’d like to discuss innovative projects, share ideas, or collaborate at the intersection of technology and healthcare. Let’s build solutions that matter!`;
 
 
   const linkedInUrl = "https://www.linkedin.com/in/anssi-laitinen-93a963269/";
