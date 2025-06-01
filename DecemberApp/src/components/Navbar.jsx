@@ -31,9 +31,10 @@ function Navbar() {
       </button>
       <div className={`navbar-links ${isMobileMenuOpen ? 'open' : ''}`}>
         <a href="#about" onClick={(e) => handleLinkClick(e, 'about')}>About</a>
+        <a href="#education" onClick={(e) => handleLinkClick(e, 'education')}>Education</a>
         <a href="#projects" onClick={(e) => handleLinkClick(e, 'projects')}>Projects</a>
-        <a href="#skills" onClick={(e) => handleLinkClick(e, 'skills')}>Skills</a>
         <a href="#work-experience" onClick={(e) => handleLinkClick(e, 'work-experience')}>Experience</a>
+        <a href="#skills" onClick={(e) => handleLinkClick(e, 'skills')}>Skills</a>
         <a href="#contact" onClick={(e) => handleLinkClick(e, 'contact')}>Contact</a>
       </div>
     </nav>
