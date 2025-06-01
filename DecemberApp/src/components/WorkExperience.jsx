@@ -9,7 +9,7 @@ function WorkExperience() {
 
     {
       id: 1,
-      title: 'IT Designer',
+      title: 'Designer',
       company: 'Istekki Oy',
       companyLink: 'https://www.istekki.fi/',
       duration: 'January 2025 - Present',
@@ -21,6 +21,7 @@ function WorkExperience() {
         'IT support',
         'Problem solving',
         'Customer service',
+        'Project work',
       ],
       backgroundImage: 'url(/istekki.jpeg)',
     },
