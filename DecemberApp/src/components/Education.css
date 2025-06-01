@@ -1,0 +1,70 @@
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.education-card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 320px;
+  padding: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.education-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,0.92);
+  z-index: 1;
+}
+
+.education-card > * {
+  position: relative;
+  z-index: 2;
+}
+
+.education-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+}
+
+.education-card h3 {
+  margin: 0.5rem 0 0.2rem 0;
+  color: #2d3a4b;
+}
+
+.education-card h4 {
+  margin: 0 0 0.5rem 0;
+  color: #4b5d6b;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.education-period {
+  font-size: 0.95rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.education-card p {
+  color: #555;
+  margin-bottom: 0;
+}

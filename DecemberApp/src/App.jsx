@@ -6,6 +6,7 @@ import WorkExperience from './components/WorkExperience'
 import Contact from './components/Contact'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Education from './components/Education'
 
 function App() {
 
@@ -13,9 +14,10 @@ function App() {
     <>
       <Navbar />
       <About />
+      <Education />
       <Projects />
-      <Skills />
       <WorkExperience />
+      <Skills />
       <Contact />
       <Footer />
     </>
