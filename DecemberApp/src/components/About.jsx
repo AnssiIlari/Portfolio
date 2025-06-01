@@ -5,9 +5,9 @@ import './About.css';
 
 function About() {
 
-  const aboutTextPart1 = `Hello! I’m Anssi Laitinen, an IT Designer specializing in healthcare technology and a soon-to-be graduate in Business Information Technology from Karelia University of Applied Sciences. My journey began in full-stack development, where I honed my skills across front-end, back-end, DevOps, and cybersecurity—experiences that now fuel my passion for building secure, user-centric IT solutions in the healthcare sector.`;
+  const aboutTextPart1 = `Hello! I’m Anssi Laitinen, a designer at Istekki Oy and a recent graduate in Business Information Technology from Karelia University of Applied Sciences.`;
 
-  const aboutTextPart3 = `In my current role, I focus on system maintenance, documentation, and testing, ensuring seamless integration of technology into healthcare workflows.`;
+  const aboutTextPart3 = `In my current role, I focus on system maintenance, documentation, testing and project work.`;
 
   const aboutTextPart4 = `Feel free to reach out if you’d like to discuss innovative projects, share ideas, or collaborate at the intersection of technology and healthcare. Let’s build solutions that matter!`;
 
