@@ -7,11 +7,17 @@ import './Education.css';
 function Education() {
   const educationList = [
     {
+      school: 'University of Eastern Finland',
+      degree: 'Master of Science, Computer Science',
+      period: '2025 - 2029',
+      backgroundImage: 'url(/uef.png)',
+    },
+    {
       school: 'Karelia University of Applied Sciences',
       degree: 'Bachelor of Business Administration, Business Information Technology',
       period: '2022 - 2025',
       backgroundImage: 'url(/kareliaa.jpg)',
-    }
+    },
   ];
 
   return (
