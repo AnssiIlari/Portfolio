@@ -9,7 +9,7 @@ function Education() {
     {
       school: 'University of Eastern Finland',
       degree: 'Master of Science, Computer Science',
-      period: '2025 - 2029',
+      period: '2025 - 2029 (estimated)',
       backgroundImage: 'url(/uef.png)',
     },
     {

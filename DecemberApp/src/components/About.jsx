@@ -5,7 +5,7 @@ import './About.css';
 
 function About() {
 
-  const aboutTextPart1 = `Hello! I’m Anssi Laitinen, a designer at Istekki Oy and a recent graduate in Business Information Technology from Karelia University of Applied Sciences.`;
+  const aboutTextPart1 = `Hello! I’m Anssi Laitinen, a designer at Istekki Oy and a Business Information Technology graduate from Karelia University of Applied Sciences. I am a master’s student in computer science at the University of Eastern Finland.`;
 
   const aboutTextPart3 = `In my current role, I focus on system maintenance, documentation, testing and project work.`;
 
